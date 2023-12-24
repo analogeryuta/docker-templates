@@ -1,4 +1,4 @@
-FROM analogeryuta/centos65
+FROM quay.io/centos/centos:stream9
 
 # Configuration
 

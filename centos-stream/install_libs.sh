@@ -14,4 +14,4 @@ yum -y install libjpeg-turbo libpng libicu
 yum -y install httpd mod_ssl postgresql-server
 
 # developments
-yum -y install php-xml git subversion
+yum -y install php-xml git
