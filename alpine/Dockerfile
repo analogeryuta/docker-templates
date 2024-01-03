@@ -1,9 +1,5 @@
 FROM alpine:latest
 
-## proxy
-ENV https_proxy 
-ENV http_proxy 
-
 ## create admin's home
 RUN mkdir /home/admin
 
