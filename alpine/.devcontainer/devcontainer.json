@@ -1,0 +1,6 @@
+{
+    "name": "Alpine DevContainer", 
+    "build": {
+        "dockerfile": "./Dockerfile"
+    }
+}
