@@ -1,0 +1,6 @@
+{
+    "name": "CentOS DevContainer", 
+    "build": {
+        "dockerfile": "../Dockerfile"
+    }
+}
