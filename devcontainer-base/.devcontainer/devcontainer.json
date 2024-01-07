@@ -1,0 +1,18 @@
+{
+    "name": "DevContainer", 
+    "dockerFile": "../Dockerfile",
+    "runArgs": ["--init"],
+    "mounts": ["source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"],
+    "overrideCommand": true,
+    "remoteEnv": {
+        "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+    },
+    "customizations": {
+        "vscode": {
+            "extentions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
